@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Tabs Mover",
+    "version": "1.2",
+  
+    "description": "Move current tab website's tabs to the right",
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "icons": {
+        "128": "iconfinder_Enter_728934.png"
+    },
+
+    "page_action": {
+        "browser_style": true,
+        "default_icon": "iconfinder_Enter_728934.png",
+        "default_title": "Move tabs to the right",
+        "show_matches": ["http://*/*", "https://*/*"]
+    },
+
+    "background": {
+      "scripts": ["background.js"]
+    }
+}
